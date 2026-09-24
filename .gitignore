@@ -1,0 +1,55 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data: Keep raw data excluded from version control
+data/raw/*
+!data/raw/.gitkeep
+
+# Model weights & large binaries
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.onnx
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / Secret variables
+.env
+.env.*
+!.env.example
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Legacy Documents folder (contents mirrored in docs/)
+Documents/
+
+# Temporary / Scratch files
+scratch/
+*.log
