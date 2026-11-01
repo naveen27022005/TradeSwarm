@@ -1,0 +1,64 @@
+{
+  "metrics": {
+    "Baseline": {
+      "final_equity": 3772.2545955843125,
+      "total_return_pct": -62.277454044156876,
+      "cagr_pct": -62.277454044156876,
+      "sharpe_ratio": 4.819469824651886,
+      "max_drawdown_pct": 99.76686251005444,
+      "manipulation_survival_rate_pct": 0.0,
+      "pumps_intercepted": 0,
+      "total_pump_episodes": 23,
+      "false_positive_veto_rate_pct": 0.0,
+      "normals_intercepted": 0,
+      "total_normal_episodes": 22,
+      "manipulation_window_drawdown_pct": 86.43980358210884
+    },
+    "Veto-Disabled": {
+      "final_equity": 209924.27907030468,
+      "total_return_pct": 1999.2427907030467,
+      "cagr_pct": 1999.2427907030467,
+      "sharpe_ratio": 3.447104002250198,
+      "max_drawdown_pct": 80.10321284032396,
+      "manipulation_survival_rate_pct": 0.0,
+      "pumps_intercepted": 0,
+      "total_pump_episodes": 23,
+      "false_positive_veto_rate_pct": 0.0,
+      "normals_intercepted": 0,
+      "total_normal_episodes": 22,
+      "manipulation_window_drawdown_pct": 80.10321284032396
+    },
+    "Veto-Enabled": {
+      "final_equity": 16581.56358912396,
+      "total_return_pct": 65.81563589123962,
+      "cagr_pct": 65.81563589123962,
+      "sharpe_ratio": 2.2109688929356044,
+      "max_drawdown_pct": 78.35143597060578,
+      "manipulation_survival_rate_pct": 95.65217391304348,
+      "pumps_intercepted": 22,
+      "total_pump_episodes": 23,
+      "false_positive_veto_rate_pct": 4.545454545454546,
+      "normals_intercepted": 1,
+      "total_normal_episodes": 22,
+      "manipulation_window_drawdown_pct": 2.0044064180466217
+    }
+  },
+  "statistical_tests": {
+    "veto_on_vs_baseline": {
+      "u_stat": 1107.5,
+      "p_value": 0.2114305903148035,
+      "is_significant": false,
+      "median_a": 0.0,
+      "median_b": -0.0010000000000000009
+    },
+    "veto_on_vs_veto_off": {
+      "u_stat": 999.0,
+      "p_value": 0.5629121594719927,
+      "is_significant": false,
+      "median_a": 0.0,
+      "median_b": 0.0
+    }
+  },
+  "override_count": 23,
+  "test_events_total": 45
+}

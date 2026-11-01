@@ -1,0 +1,30 @@
+{
+  "majority_vote": {
+    "mode": "majority_vote",
+    "initial_capital": 10000.0,
+    "final_equity": 14432.457772081549,
+    "total_return_pct": 44.32457772081549,
+    "sharpe_ratio": 2.5067489483693204,
+    "max_drawdown_pct": 57.827866621558435,
+    "trade_count": 1,
+    "lstm_metrics": {
+      "rmse": 8.77385902308623e-05,
+      "mae": 8.75384514612108e-05,
+      "r2": -26.41478544238951
+    }
+  },
+  "q_refined": {
+    "mode": "q_refined",
+    "initial_capital": 10000.0,
+    "final_equity": 10000.0,
+    "total_return_pct": 0.0,
+    "sharpe_ratio": 0.0,
+    "max_drawdown_pct": 0.0,
+    "trade_count": 0,
+    "lstm_metrics": {
+      "rmse": 8.77385902308623e-05,
+      "mae": 8.75384514612108e-05,
+      "r2": -26.41478544238951
+    }
+  }
+}
