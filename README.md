@@ -273,9 +273,5 @@ All 34 unit, regression, and data-leakage tests will execute and pass in ~38 sec
 
 ---
 
-## 🎓 Academic Review & Viva Talking Points
 
-* **For Review 1 (30% Milestone):** Show that Phases 0–2 are complete: La Morgia and Ardia datasets reconciled into zero-leakage splits, and the Singh (2026) baseline reproduced.
-* **For Review 2 (70% Milestone):** Open the interactive Streamlit dashboard (`run_dashboard.bat`). Demonstrate the Live Event Simulator: toggle Veto OFF (watch it crash) vs. Veto ON (watch the red alert save the portfolio).
-* **For Final Viva:** Reference [`docs/paper_draft.md`](docs/paper_draft.md) and [`docs/demo_script.md`](docs/demo_script.md), which contain complete slide-by-slide presentations, mathematical formulations, and model answers for examiners.
 
